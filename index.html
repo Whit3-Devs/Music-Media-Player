@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto 01</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="container-mediaPlayer" class="container-mediaPlayer">
+    
+    <div id="container-infoSong" class="container-infoSong">
+
+      <!--Imagen de album -->
+      <div id="container-imageAlbum" class="container-imageAlbum">
+        <img src="images/dookie-album.jpg" alt="Album de Green Day Dookie" class="image-album">
+      </div>
+
+      <!-- Titulos y nombres -->
+      <div id="text-song" class="text-song">
+        <h1 id="title-band" class="title-band">Green Day</h1>
+        <h2 id="title-album" class="title-album">Dookie (1994)</h2>
+        <h3 id="title-song" class="title-song">Basket Case</h3>
+      </div>
+
+    </div>
+
+    <!-- Barra de Progreso -->
+    <div id="bar-under" class="bar-under">
+      <div id="bar-upper" class="bar-upper"></div>
+    </div>
+
+    <!-- Tiempo de cancion -->
+    <div id="time-song" class="time-song">
+      <span id="duration-time" class="duration-time">00:00</span>
+      <span id="maxDuration-time" class="maxDuration-time">00:00</span>
+    </div>
+
+    <!-- Botones Multimedia -->
+    <div id="control-btns" class="control-btns">
+
+      <a href="#" id="previous-btn" class="previous-btn">
+        <img src="svg/previous-btn.svg" alt="">
+      </a>
+
+      <a href="#" id="play-btn" class="play-btn">
+        <img src="svg/play-btn.svg"/>
+      </a>
+      <a href="#" id="pause-btn" class="pause-btn hidden">
+        <img src="svg/pause-btn.svg" alt="">
+      </a>
+
+      
+      <a href="#" id="next-btn" class="next-btn">
+        <img src="svg/next-btn.svg" alt="">
+      </a>
+
+    </div>
+
+    <!-- Botones de control de Volumen -->
+    <div id="volume-btns" class="volume-btns">
+
+      <a href="#" id="decrease-btn" class="decrease-btn">
+        <img src="svg/decreaseVolume-btn.svg" alt="">
+      </a>
+
+      <a href="#" id="sound-btn" class="sound-btn">
+        <img src="svg/sound-btn.svg" alt="" id="">
+      </a>
+
+      <!-- <a href="#" id="mute-btn" class="mute-btn">
+        <img src="svg/mute-btn.svg" alt="">
+      </a> -->
+
+      <a href="#" id="increase-btn" class="increase-btn">
+        <img src="svg/increaseVolume-btn.svg" alt="">
+      </a>
+
+    </div>
+
+  </div>
+
+  <div id="container-lyrics" class="container-lyrics">
+    <h3 id="title-lyrics" class="title-lyrics">Lyrics</h3>
+    
+  </div>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>

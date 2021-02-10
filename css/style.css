@@ -13,6 +13,8 @@ body {
   background: -prefix-linear-gradient(top, #56C596, #329D9C);
   background: linear-gradient(to bottom, #56C596, #329D9C);
   border-radius: 0 0 20px 20px;
+  z-index: 100;
+  position: relative;
 }
 
 .container-infoSong {
@@ -186,15 +188,39 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   background-color: #2A2A2A;
   min-width: 280px;
-  padding: 0px 40px;
+  padding: 40px 0 0 0;
   color: #fafafa;
+  z-index: 50;
+  margin-top: -40px;
+
 }
+  .container-songText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 40px 10px;
+    min-width: 280px;
+  }
 
+    .title-lyrics {
+      font-size: 24px;
+      max-width: 280px;
+      margin: 20px 0 5px;
+      border-bottom: 3px solid #fafafa;
+    }
 
-
+    .song-lyrics {
+      max-width: 280px;
+    }
+      .song-lyrics p {
+        color: #fafafa;
+        text-align: left;
+        font-size: 14px;
+      }
 
 
 

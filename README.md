@@ -1,5 +1,5 @@
 # Media Player Music
-![](https://img.shields.io/badge/-HTML-orange) ![](https://img.shields.io/badge/-CSS-blue) ![](https://img.shields.io/badge/-JS-yellow)  ![](https://img.shields.io/badge/-Web Api_Audio-green)
+![](https://img.shields.io/badge/-HTML-orange) ![](https://img.shields.io/badge/-CSS-blue) ![](https://img.shields.io/badge/-JS-yellow)  ![](https://img.shields.io/badge/-Web_Api_Audio-green)
 
 Aplicación web reproductor de música. [Media Player Music](https://reto01-media-player-music.firebaseapp.com/)
 

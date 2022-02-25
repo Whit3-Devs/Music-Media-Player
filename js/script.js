@@ -50,20 +50,20 @@ const playlist = {
         13: 'F.O.D. / All by Myself'
       },
       src: {
-        0: 'audio/dookie/burnout.mp3',
-        1: 'audio/dookie/havingABlast.mp3',
-        2: 'audio/dookie/chump.mp3',
-        3: 'audio/dookie/longview.mp3',
-        4: 'audio/dookie/welcomeToParadise.mp3',
-        5: 'audio/dookie/pullingteeth.mp3',
-        6: 'audio/dookie/basketcase.mp3',
-        7: 'audio/dookie/she.mp3',
-        8: 'audio/dookie/sassafrasRoots.mp3',
-        9: 'audio/dookie/whenIComeAround.mp3',
-        10: 'audio/dookie/comingClean.mp3',
-        11: 'audio/dookie/emeniusSleepus.mp3',
-        12: 'audio/dookie/inTheEnd.mp3',
-        13: 'audio/dookie/fod.mp3'
+        0: 'https://reto01-media-player-music.web.app/audio/dookie/burnout.mp3',
+        1: 'https://reto01-media-player-music.web.app/audio/dookie/havingABlast.mp3',
+        2: 'https://reto01-media-player-music.web.app/audio/dookie/chump.mp3',
+        3: 'https://reto01-media-player-music.web.app/audio/dookie/longview.mp3',
+        4: 'https://reto01-media-player-music.web.app/audio/dookie/welcomeToParadise.mp3',
+        5: 'https://reto01-media-player-music.web.app/audio/dookie/pullingteeth.mp3',
+        6: 'https://reto01-media-player-music.web.app/audio/dookie/basketcase.mp3',
+        7: 'https://reto01-media-player-music.web.app/audio/dookie/she.mp3',
+        8: 'https://reto01-media-player-music.web.app/audio/dookie/sassafrasRoots.mp3',
+        9: 'https://reto01-media-player-music.web.app/audio/dookie/whenIComeAround.mp3',
+        10: 'https://reto01-media-player-music.web.app/audio/dookie/comingClean.mp3',
+        11: 'https://reto01-media-player-music.web.app/audio/dookie/emeniusSleepus.mp3',
+        12: 'https://reto01-media-player-music.web.app/audio/dookie/inTheEnd.mp3',
+        13: 'https://reto01-media-player-music.web.app/audio/dookie/fod.mp3'
       },
       lirycs: {
         0: `<p>I declare I don’t care no more\

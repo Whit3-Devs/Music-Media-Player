@@ -6,8 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media Player</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-96x96.png" type="image/png" sizes="96x96">
+
+  <meta name="description" content="Versión 2 del primer reto de la escuela DevRock del curso SummerHack2. Esta versión consiste en un reproductor multimedia de un album completo en la web."/>
+  <meta name="keywords" content="versión 2, reto01, SummerHack2, escueladevrock, song, canción, año de album, album de canción, nombre de canción, green day, genero punk, dookie, basket case, letra de cancion, letra de album dookie, burnout, dookie, having a blast, welcome to paradise, chump, she, basket case, F.O.D. / All my Self"/>
+  <meta name="author" content="Augusto Blanco"/>
+  <meta name="copyright" content="AugustoBlanco/DevRock2020"/>
+
+  <!-- ROBOTS -->
+  <meta name="robots" content="index follow">
+
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-16x16.png" type="image/png" sizes="16x16"/>
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-32x32.png" type="image/png" sizes="32x32"/>
+  <link rel="icon" href="https://reto01-media-player-music.web.app/images/favicon-96x96.png" type="image/png" sizes="96x96"/>
+
+  <meta property="og:title" content="Reto 01-SummerHack / Augusto Blanco Versión 2"/>
+  <meta property="og:description" content="Versión 2 del primer reto de la escuela DevRock del curso SummerHack2. Esta versión consiste en un reproductor multimedia de un album completo en la web."/>
+  <meta property="og:type" content="Album"/>
+  <meta property="og:image" content="https://reto01-media-player-music.web.app/images/dookie-album.jpg"/>
+  <meta property="og:image" content="https://reto01-media-player-music.web.app/"/>
+
+  <meta property="twitter:title" content="Reto 01-SummerHack / Augusto Blanco Versión 2/>
+  <meta property="twitter:description" content="Versión 2 del primer reto de la escuela DevRock del curso SummerHack2. Esta versión consiste en un reproductor multimedia de un album completo en la web."/>
+  <meta property="twitter:type" content="Album"/>
+  <meta property="twitter:image" content="https://reto01-media-player-music.web.app/images/dookie-album.jpg"/>
+
 </head>
 <body>
+
+  <header class="header-nav">
+    <nav class="container-nav">
+      <a class="ab-btn" href="https://reto01-media-player-music.web.app/">
+        <img src="https://reto01-media-player-music.web.app/images/svgAB-white.png" alt="Logo Augusto Blanco">
+      </a>
+    </nav>
+  </header>
+
   <section class="section-mediaplayer" id="section-mediaplayer">
     <div id="container-mediaPlayer" class="container-mediaPlayer">
     
@@ -15,7 +52,7 @@
   
         <!--Imagen de album -->
         <div id="container-imageAlbum" class="container-imageAlbum">
-          <img src="images/dookie-album.jpg" alt="Album de Green Day Dookie" class="image-album">
+          <img src="https://reto01-media-player-music.web.app/images/dookie-album.jpg" alt="Album de Green Day Dookie" class="image-album">
         </div>
   
         <!-- Titulos y nombres -->
@@ -42,19 +79,19 @@
       <div id="control-btns" class="control-btns">
   
         <a href="#" id="previous-btn" class="previous-btn">
-          <img src="svg/previous-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/previous-btn.svg" alt="">
         </a>
   
         <a href="#" id="play-btn" class="play-btn">
-          <img src="svg/play-btn.svg"/>
+          <img src="https://reto01-media-player-music.web.app/svg/play-btn.svg"/>
         </a>
         <a href="#" id="pause-btn" class="pause-btn hidden">
-          <img src="svg/pause-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/pause-btn.svg" alt="">
         </a>
   
         
         <a href="#" id="next-btn" class="next-btn">
-          <img src="svg/next-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/next-btn.svg" alt="">
         </a>
   
       </div>
@@ -63,19 +100,19 @@
       <div id="volume-btns" class="volume-btns">
   
         <a href="#" id="decrease-btn" class="decrease-btn">
-          <img src="svg/decreaseVolume-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/decreaseVolume-btn.svg" alt="">
         </a>
   
         <a href="#" id="sound-btn" class="sound-btn">
-          <img src="svg/sound-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/sound-btn.svg" alt="">
         </a>
   
         <a href="#" id="mute-btn" class="mute-btn hidden">
-          <img src="svg/mute-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/mute-btn.svg" alt="">
         </a>
   
         <a href="#" id="increase-btn" class="increase-btn">
-          <img src="svg/increaseVolume-btn.svg" alt="">
+          <img src="https://reto01-media-player-music.web.app/svg/increaseVolume-btn.svg" alt="">
         </a>
   
       </div>
@@ -91,10 +128,32 @@
       </div>
   </section>
 
-    
-  </div>
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="container-social">
 
-<script src="js/script.js"></script>
+        <a href="https://github.com/Whit3-Devs" class="github-btn">
+          <img src="svg/github.svg" alt="">
+        </a>
+  
+        <a class="linkedin-btn" href="https://www.linkedin.com/in/blanco-augusto-r/">
+          <img src="svg/linkedin.svg" alt="">
+        </a>
+  
+        <a class="instagram-btn" href="https://www.instagram.com/agus.whit3/">
+        <img src="svg/instagram.svg" alt="">
+        </a>
+      </div>
+
+      <div class="container-copyright">
+        <p>Copyright Augusto Blanco © Todos los Derechos Reservados</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+<script src="https://reto01-media-player-music.web.app/js/script.js"></script>
 </body>
 
 </html>

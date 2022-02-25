@@ -4,6 +4,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-nav { 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 40px;
+  width: 100%;
+  background-color: #61d1a1;
+  box-shadow: 0px 2px 2px #666;
+  z-index: 150;
+  position: relative;
+
+}
+
+.ab-btn {
+  min-width: 35px;
+  min-height: 35px;
+  
+}
+  .ab-btn img{
+    max-width: 35px;
+    max-height: 35px;
+  }
+
 .container-mediaPlayer {
   display: flex;
   justify-content: center;
@@ -222,7 +253,72 @@ body {
         font-size: 14px;
       }
 
-
+      .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+      
+      }
+      .container-footer {
+        min-width: 280px;
+        background: -prefix-linear-gradient(top, #329D9C, #56C596);
+        background: linear-gradient(to bottom, #329D9C,#56C596);
+        border-radius: 20px 20px 0 0;
+        z-index: 75;
+        margin-top: -10px;
+        position: relative;
+      }
+        .container-social {
+          display: flex;
+          height: 40px;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: flex-start;
+          margin: 0 0 -10px 0;
+          padding: 50px 40px 0px;
+      
+      
+        }
+          .github-btn {
+            min-width: 35px;
+            min-height: 35px;
+            align-self: flex-end;
+            margin-bottom: 25px;
+          }
+            .github-btn img{
+              max-width: 35px;
+              max-height: 35px;
+            }
+          .linkedin-btn {
+            min-width: 35px;
+            min-height: 35px;
+            align-self: flex-end;
+            margin-bottom: 25px;
+          }
+            .linkedin-btn img{
+              max-width: 35px;
+              max-height: 35px;
+            }
+          .instagram-btn {
+            min-width: 35px;
+            min-height: 35px;
+            align-self: flex-end;
+            margin-bottom: 25px;
+          }
+            .instagram-btn img{
+              max-width: 35px;
+              max-height: 35px;
+            }
+        
+        .container-copyright {
+          align-self: center;
+          font-size: 10px;
+          color: #fafafa;
+          width: 100%;
+          text-align: center;
+          margin-top: 0px;
+        }
 
 @media screen and (min-width:480px){
 
@@ -233,9 +329,12 @@ body {
   .time-song {
     width: 100%;
   }
+
+
 }
 
 @media screen and (min-width:600px){
+
   body {
     background-color: #E5E5E5;
     display: flex;
@@ -244,11 +343,18 @@ body {
     align-items: center;
   }
 
+  .container-nav {
+    min-width: 520px;
+  }
+
+  .container-footer {
+    min-width: 520px;
+  }
+
   .container-mediaPlayer{
     width: 520px;
   }
+  .footer {
+    width: 600px;
+  }
 }
-/* 
-@media screen and (min-width:860px){
-
-} */

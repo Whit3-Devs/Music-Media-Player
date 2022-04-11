@@ -4,7 +4,7 @@
 Aplicación web reproductor de música. [Media Player Music](https://reto01-media-player-music.firebaseapp.com/)
 
 ## Motivación
-Luego del aprender a manejar el DOM creando un [To-Do List Aplication](https://to-do-listapp-august.web.app/ "To-Do List Aplication"), tuve la idea de recrear un reproductor de música usando la api audio de la web con unos de mis albunes favoritos Dookie de Green Day.
+Luego del aprender a manejar el DOM creando un [To-Do List Aplication](https://to-do-listapp-august.web.app/ "To-Do List Aplication"), tuve la idea de recrear un reproductor de música usando la api audio de la web con unos de mis albumes favoritos Dookie de Green Day.
 
 ## Características
 Podrás:
